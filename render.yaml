@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: plantmitra-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt && pip install -r ml/requirements-inference.txt
+    startCommand: python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONPATH
+        value: backend
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false

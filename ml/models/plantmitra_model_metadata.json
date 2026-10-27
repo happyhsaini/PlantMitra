@@ -1,0 +1,179 @@
+{
+  "model_name": "MobileNetV3-Small",
+  "num_classes": 7,
+  "classes": [
+    {
+      "class_index": 0,
+      "dataset_label": "Aloevera",
+      "common_name": "Aloe Vera",
+      "scientific_name": "Aloe barbadensis miller",
+      "source_class_id": 0
+    },
+    {
+      "class_index": 1,
+      "dataset_label": "Amla",
+      "common_name": "Amla",
+      "scientific_name": "Phyllanthus emblica",
+      "source_class_id": 1
+    },
+    {
+      "class_index": 2,
+      "dataset_label": "Ashwagandha",
+      "common_name": "Ashwagandha",
+      "scientific_name": "Withania somnifera",
+      "source_class_id": 5
+    },
+    {
+      "class_index": 3,
+      "dataset_label": "Brahmi",
+      "common_name": "Brahmi",
+      "scientific_name": "Bacopa monnieri",
+      "source_class_id": 11
+    },
+    {
+      "class_index": 4,
+      "dataset_label": "Mint",
+      "common_name": "Mint",
+      "scientific_name": "Mentha",
+      "source_class_id": 27
+    },
+    {
+      "class_index": 5,
+      "dataset_label": "Neem",
+      "common_name": "Neem",
+      "scientific_name": "Azadirachta indica",
+      "source_class_id": 29
+    },
+    {
+      "class_index": 6,
+      "dataset_label": "Tulasi",
+      "common_name": "Tulsi",
+      "scientific_name": "Ocimum tenuiflorum",
+      "source_class_id": 38
+    }
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "model_version": "1.0.0",
+  "dataset": "DIMPSAR",
+  "dataset_url": "https://huggingface.co/datasets/Project-AgML/DIMPSAR_medicinal_plant_classification",
+  "dataset_revision": "eb460a4f3770a1be748a8ad2d4bc22301755c14a",
+  "dataset_license": "CC BY 4.0",
+  "seed": 42,
+  "training_date": "2026-10-03T08:57:17.225066+00:00",
+  "split_counts": {
+    "train": 728,
+    "validation": 157,
+    "test": 156
+  },
+  "unique_images_by_class": {
+    "Aloevera": 164,
+    "Amla": 146,
+    "Ashwagandha": 140,
+    "Brahmi": 146,
+    "Mint": 153,
+    "Neem": 146,
+    "Tulasi": 146
+  },
+  "pretrained_weights": "MobileNet_V3_Small_Weights.IMAGENET1K_V1",
+  "input_transform": "train: RandomResizedCrop(224), horizontal flip, 10-degree rotation, mild ColorJitter; eval: Resize(256), CenterCrop(224)",
+  "loss": "CrossEntropyLoss",
+  "class_weighting": null,
+  "training_examples_per_epoch": 728,
+  "validation_examples": 157,
+  "test_examples": 156,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "best_validation_accuracy": 0.9872611464968153,
+  "best_validation_loss": 0.0512406614365851,
+  "best_epoch_train_accuracy": 0.9958791208791209,
+  "training_time_seconds": 298.18177009999636,
+  "device": "cpu",
+  "train_minus_validation_accuracy": 0.008617974382305604,
+  "confidence_note": "Softmax model confidence is not a calibrated probability of correctness.",
+  "uncertainty_threshold": 0.55,
+  "test_accuracy": 0.9743589743589743,
+  "test_macro_precision": 0.9761255411255413,
+  "test_macro_recall": 0.9745670995670996,
+  "test_macro_f1": 0.9749572133293063,
+  "test_per_class": [
+    {
+      "class_index": 0,
+      "dataset_label": "Aloevera",
+      "common_name": "Aloe Vera",
+      "precision": 0.9583333333333334,
+      "recall": 0.9583333333333334,
+      "f1": 0.9583333333333334,
+      "support": 24
+    },
+    {
+      "class_index": 1,
+      "dataset_label": "Amla",
+      "common_name": "Amla",
+      "precision": 1.0,
+      "recall": 0.9545454545454546,
+      "f1": 0.9767441860465116,
+      "support": 22
+    },
+    {
+      "class_index": 2,
+      "dataset_label": "Ashwagandha",
+      "common_name": "Ashwagandha",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 21
+    },
+    {
+      "class_index": 3,
+      "dataset_label": "Brahmi",
+      "common_name": "Brahmi",
+      "precision": 1.0,
+      "recall": 0.9545454545454546,
+      "f1": 0.9767441860465116,
+      "support": 22
+    },
+    {
+      "class_index": 4,
+      "dataset_label": "Mint",
+      "common_name": "Mint",
+      "precision": 0.92,
+      "recall": 1.0,
+      "f1": 0.9583333333333334,
+      "support": 23
+    },
+    {
+      "class_index": 5,
+      "dataset_label": "Neem",
+      "common_name": "Neem",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 22
+    },
+    {
+      "class_index": 6,
+      "dataset_label": "Tulasi",
+      "common_name": "Tulsi",
+      "precision": 0.9545454545454546,
+      "recall": 0.9545454545454546,
+      "f1": 0.9545454545454546,
+      "support": 22
+    }
+  ],
+  "test_evaluations": 1
+}

@@ -1,0 +1,8 @@
+datasets>=3.3,<5
+huggingface-hub>=0.25,<2
+Pillow>=10.0
+torch>=2.4
+torchvision>=0.19
+PyYAML>=6.0
+scikit-learn>=1.5
+matplotlib>=3.8

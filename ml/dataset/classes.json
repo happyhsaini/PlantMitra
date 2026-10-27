@@ -1,0 +1,45 @@
+{
+  "dataset": "Pl@ntNet-300K-v2",
+  "dataset_url": "https://zenodo.org/records/10419064/files/images.zip",
+  "metadata": {
+    "species_metadata_url": "https://zenodo.org/records/10419064/files/species_metadata.csv?download=1",
+    "image_metadata_url": "https://zenodo.org/records/10419064/files/plantnet300K_metadata.csv?download=1",
+    "species_id_field": "species_id",
+    "scientific_name_field": "species",
+    "full_species_field": "full_species",
+    "image_fields": [
+      "species_id",
+      "PN_observation_id",
+      "organ",
+      "author",
+      "license",
+      "split",
+      "PN_hash"
+    ],
+    "image_path_template": "images/{split}/{species_id:04d}/{PN_hash}.jpg"
+  },
+  "training_license_allowlist": [
+    "cc-by-sa"
+  ],
+  "verified_classes": [
+    {
+      "common_name": "Amla",
+      "requested_scientific_name": "Phyllanthus emblica",
+      "species_id": "653",
+      "scientific_name": "Phyllanthus emblica",
+      "full_species": "Phyllanthus emblica L.",
+      "family": "Phyllanthaceae",
+      "available_image_count": 27,
+      "image_license_counts": {
+        "cc-by-sa": 27,
+        "cc-by-nc": 0,
+        "cc-by-nc-sa": 0
+      },
+      "organ_image_counts": {
+        "fruit": 10,
+        "leaf": 16,
+        "other": 1
+      }
+    }
+  ]
+}

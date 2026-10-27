@@ -1,0 +1,11 @@
+requested_common_name,requested_scientific_name,status,species_id,actual_dataset_scientific_name,full_species,family,available_image_count,cc_by_sa_images,cc_by_nc_images,cc_by_nc_sa_images,organ_fruit,organ_leaf,organ_other
+Neem,Azadirachta indica,not_found,,,,,0,0,0,0,0,0,0
+Tulsi,Ocimum tenuiflorum,not_found,,,,,0,0,0,0,0,0,0
+Aloe Vera,Aloe vera,not_found,,,,,0,0,0,0,0,0,0
+Ashwagandha,Withania somnifera,not_found,,,,,0,0,0,0,0,0,0
+Amla,Phyllanthus emblica,found,653,Phyllanthus emblica,Phyllanthus emblica L.,Phyllanthaceae,27,27,0,0,10,16,1
+Moringa,Moringa oleifera,not_found,,,,,0,0,0,0,0,0,0
+Brahmi,Bacopa monnieri,not_found,,,,,0,0,0,0,0,0,0
+Centella,Centella asiatica,not_found,,,,,0,0,0,0,0,0,0
+Turmeric,Curcuma longa,not_found,,,,,0,0,0,0,0,0,0
+Mint,Mentha,not_found,,,,,0,0,0,0,0,0,0

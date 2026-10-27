@@ -1,0 +1,138 @@
+{
+  "test_images": 156,
+  "accuracy": 0.9743589743589743,
+  "loss": 0.07608998203888917,
+  "macro_precision": 0.9761255411255413,
+  "macro_recall": 0.9745670995670996,
+  "macro_f1": 0.9749572133293063,
+  "per_class": [
+    {
+      "class_index": 0,
+      "dataset_label": "Aloevera",
+      "common_name": "Aloe Vera",
+      "precision": 0.9583333333333334,
+      "recall": 0.9583333333333334,
+      "f1": 0.9583333333333334,
+      "support": 24
+    },
+    {
+      "class_index": 1,
+      "dataset_label": "Amla",
+      "common_name": "Amla",
+      "precision": 1.0,
+      "recall": 0.9545454545454546,
+      "f1": 0.9767441860465116,
+      "support": 22
+    },
+    {
+      "class_index": 2,
+      "dataset_label": "Ashwagandha",
+      "common_name": "Ashwagandha",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 21
+    },
+    {
+      "class_index": 3,
+      "dataset_label": "Brahmi",
+      "common_name": "Brahmi",
+      "precision": 1.0,
+      "recall": 0.9545454545454546,
+      "f1": 0.9767441860465116,
+      "support": 22
+    },
+    {
+      "class_index": 4,
+      "dataset_label": "Mint",
+      "common_name": "Mint",
+      "precision": 0.92,
+      "recall": 1.0,
+      "f1": 0.9583333333333334,
+      "support": 23
+    },
+    {
+      "class_index": 5,
+      "dataset_label": "Neem",
+      "common_name": "Neem",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 22
+    },
+    {
+      "class_index": 6,
+      "dataset_label": "Tulasi",
+      "common_name": "Tulsi",
+      "precision": 0.9545454545454546,
+      "recall": 0.9545454545454546,
+      "f1": 0.9545454545454546,
+      "support": 22
+    }
+  ],
+  "confusion_matrix": [
+    [
+      23,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      21,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      21,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      22,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21
+    ]
+  ]
+}

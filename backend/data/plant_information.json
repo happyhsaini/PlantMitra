@@ -1,0 +1,70 @@
+{
+  "model_version": "1.0.0",
+  "source_note": "Taxonomy, native range, habit and use categories are summarized from linked Kew Plants of the World Online records. Traditional-use descriptions report cultural/documented use, not efficacy or medical advice.",
+  "plants": {
+    "Aloevera": {
+      "common_name": "Aloe Vera", "scientific_name": "Aloe barbadensis miller", "family": "Asphodelaceae",
+      "description": "A succulent perennial aloe cultivated widely; its fleshy leaves contain clear gel and a distinct bitter yellow exudate.",
+      "taxonomy_note": "The trained model metadata uses Aloe barbadensis miller. Kew POWO accepts Aloe vera for the linked taxon; the model mapping is unchanged.",
+      "plant_type": "Succulent perennial herb", "plant_parts": ["Leaf", "Flower"],
+      "habitat": "Dry shrubland and other arid settings; cultivated in many regions.",
+      "distribution": "Kew lists northern Oman (Hajar Mountains) as the native range; the plant is cultivated widely.",
+      "traditional_uses": ["Kew records long-standing food, cosmetic and herbal-remedy uses of aloe leaf gel. These records do not establish that a particular preparation is safe or effective."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A530017-1/general-information"]
+    },
+    "Amla": {
+      "common_name": "Amla", "scientific_name": "Phyllanthus emblica", "family": "Phyllanthaceae",
+      "description": "A tropical and subtropical Asian tree known by the common name Indian gooseberry.",
+      "plant_type": "Tree", "plant_parts": ["Fruit", "Leaf", "Bark", "Seed"],
+      "habitat": "Wet tropical and subtropical environments; also cultivated.",
+      "distribution": "Native across tropical and subtropical Asia, including the Indian subcontinent and parts of Southeast Asia.",
+      "traditional_uses": ["The linked Kew record documents taxonomy and distribution but does not provide a medicinal-use claim; none is inferred here."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A353838-1/general-information"]
+    },
+    "Ashwagandha": {
+      "common_name": "Ashwagandha", "scientific_name": "Withania somnifera", "family": "Solanaceae",
+      "description": "A greyish, branching subshrub or shrub of subtropical environments.",
+      "plant_type": "Subshrub or shrub", "plant_parts": ["Root", "Leaf", "Flower", "Fruit", "Seed"],
+      "habitat": "Subtropical settings, including open or disturbed places in some regional floras.",
+      "distribution": "Kew describes a broad native range from southern Europe to central China and from Africa to Myanmar, including India.",
+      "traditional_uses": ["Withania somnifera is recorded as a medicinal-use plant in Kew's plant information sources. No benefit, dose or safety claim is made here."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821709-1/general-information"]
+    },
+    "Brahmi": {
+      "common_name": "Brahmi", "scientific_name": "Bacopa monnieri", "family": "Plantaginaceae",
+      "description": "A low-growing annual herb or subshrub associated with tropical and subtropical regions; it can grow in wet places.",
+      "plant_type": "Annual herb or subshrub", "plant_parts": ["Leaf", "Flower", "Stem"],
+      "habitat": "Tropical and subtropical habitats, often moist or aquatic settings.",
+      "distribution": "A broadly distributed tropical and subtropical plant; Kew records it as native in India and many other regions.",
+      "traditional_uses": ["Kew records food and medicinal uses for this species. These are descriptions of reported use, not evidence of a specific health outcome."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1072674-2/general-information"]
+    },
+    "Mint": {
+      "common_name": "Mint", "scientific_name": "Mentha", "family": "Lamiaceae",
+      "description": "Mentha is an accepted genus of aromatic herbs and subshrubs. The model predicts the genus-level class, not a particular mint species.",
+      "plant_type": "Aromatic herb or subshrub; varies by species", "plant_parts": ["Leaf", "Flower", "Stem"],
+      "habitat": "Varies by species; the genus has a cosmopolitan distribution and many mints grow in moist habitats.",
+      "distribution": "Kew lists the genus as cosmopolitan. A genus-level result cannot determine the exact species or locality.",
+      "traditional_uses": ["Many Mentha species are used as culinary herbs; some species also have documented traditional medicinal uses. This classifier does not identify which mint species is pictured."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30016176-2/general-information", "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A451162-1/general-information"]
+    },
+    "Neem": {
+      "common_name": "Neem", "scientific_name": "Azadirachta indica", "family": "Meliaceae",
+      "description": "A tropical tree with documented environmental, food, fuel and social uses.",
+      "plant_type": "Tree", "plant_parts": ["Leaf", "Flower", "Fruit", "Seed", "Bark", "Root"],
+      "habitat": "Wet tropical biome.",
+      "distribution": "Kew lists Assam to Indo-China as the native range; the species is introduced or cultivated in many other tropical regions.",
+      "traditional_uses": ["Kew's referenced floras record traditional medicinal uses of multiple neem parts. This is historical-use information only and does not imply safety or efficacy."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1213180-2/general-information"]
+    },
+    "Tulasi": {
+      "common_name": "Tulsi", "scientific_name": "Ocimum tenuiflorum", "family": "Lamiaceae",
+      "description": "An aromatic perennial herb or subshrub, also known as holy basil; it has cultural and culinary importance.",
+      "plant_type": "Perennial herb or subshrub", "plant_parts": ["Leaf", "Flower", "Seed", "Stem"],
+      "habitat": "Seasonally dry tropical settings; cultivated and naturalised beyond its native range.",
+      "distribution": "Native to tropical and subtropical Asia and the western Pacific; Kew includes India in its native range.",
+      "traditional_uses": ["Kew describes Tulsi as culturally significant and records traditional medicinal uses. These reports are not treatment or safety advice."],
+      "sources": ["https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A453130-1/general-information"]
+    }
+  }
+}
